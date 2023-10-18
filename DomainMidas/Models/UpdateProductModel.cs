@@ -11,8 +11,8 @@ namespace DomainMidas.Models
         //Айди задачи которую мы хотим изменить
         public int Id { get; set; }
         //Новые значение полей для задачи
-        public string Name { get; set; }
-        public string Description { get; set; }
+        public string? Name { get; set; }
+        public string? Description { get; set; }
         public int Price { get; set; }
     }
 }
