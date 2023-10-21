@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIMidas", "APIMidas\APIMid
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainMidas", "DomainMidas\DomainMidas.csproj", "{75740261-2A62-444B-BC1B-CCDF96A3ACDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfrastructureMidas", "InfrastructureMidas\InfrastructureMidas.csproj", "{25C89A0F-2952-4DFE-917B-46E3C925E86B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfrastructureMidas", "InfrastructureMidas\InfrastructureMidas.csproj", "{25C89A0F-2952-4DFE-917B-46E3C925E86B}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{DB9CF02D-4602-427A-9CD0-2D27CF3A7D7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "..\UnitTest\UnitTest.csproj", "{D1281502-1070-4600-ADC5-E6C88F80DCB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{DB9CF02D-4602-427A-9CD0-2D27CF3A7D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB9CF02D-4602-427A-9CD0-2D27CF3A7D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB9CF02D-4602-427A-9CD0-2D27CF3A7D7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1281502-1070-4600-ADC5-E6C88F80DCB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1281502-1070-4600-ADC5-E6C88F80DCB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1281502-1070-4600-ADC5-E6C88F80DCB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1281502-1070-4600-ADC5-E6C88F80DCB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
