@@ -78,7 +78,13 @@ namespace APIMidas.Controllers
                 return BadRequest();
             }
         }
-
+        [HttpPost("CreateDb")]
+        public IActionResult CreateDb()
+        {
+            //Метод который создат и сделает все миграции бд
+            _dataContext.CreateDb();
+            return Ok();
+        }
 
     }
 }

@@ -14,5 +14,6 @@ namespace InfrastructureMidas.Interfaces
         Task Update(T item);
         void Delete(int id);
         Task SaveChangesAsync();
+        Task CreateDb();
     }
 }

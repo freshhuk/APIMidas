@@ -41,6 +41,11 @@ namespace InfrastructureMidas.Context
                 products.Remove(model);
             }
         }
+        public async Task CreateDb()
+        {
+            await Database.EnsureCreatedAsync();
+            await Database.MigrateAsync();
+        }
 
         public Product Get(int id)
         {
